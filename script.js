@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
             } else {
                 count = 0
             }
-
+            // can also use innerText
             document.getElementById('counter-value').textContent = count
         })
     })
